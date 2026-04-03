@@ -1,0 +1,28 @@
+{
+  "firestore": {
+    "rules": "firestore.rules"
+  },
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "allinoneapp-45",
+          "appId": "1:594233306135:android:1b98f17ea9b52a48ec8052",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "allinoneapp-45",
+          "configurations": {
+            "android": "1:594233306135:android:1b98f17ea9b52a48ec8052",
+            "ios": "1:594233306135:ios:75f56dea3d0a07f4ec8052",
+            "macos": "1:594233306135:ios:75f56dea3d0a07f4ec8052",
+            "web": "1:594233306135:web:0b1fc43cec5803d0ec8052",
+            "windows": "1:594233306135:web:dee275c4bdbdc328ec8052"
+          }
+        }
+      }
+    }
+  }
+}
